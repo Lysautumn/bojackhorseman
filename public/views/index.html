@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="routeApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Character Fun</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+
+    <script src="scripts/app.module.js" charset="utf-8"></script>
+    <script src="scripts/app.config.js" charset="utf-8"></script>
+
+    <base href="/" />
+  </head>
+  <body>
+    <header>
+      <!-- can use anchor tags and angular will intercept -->
+      <a href="/bojack">BoJack Horseman</a>
+      <a href="/princessc">Princess Carolyn</a>
+      <a href="/mrpb">Mr. Peanutbutter</a>
+    </header>
+    <main>
+      <!-- placeholder section that will change out views -->
+      <div id="viewer" ng-view>
+
+      </div>
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>

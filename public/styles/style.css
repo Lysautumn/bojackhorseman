@@ -1,0 +1,29 @@
+body {
+  background-color: #00ffff;
+}
+main {
+  background-image: url(/assets/bojackbackground.jpg);
+  background-size: 100% auto;
+}
+a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 30px;
+}
+img {
+  border: 10px solid black;
+  display: block;
+  margin: 0 auto;
+}
+h1, p {
+  text-align: center;
+}
+header {
+  background-color: #00ffff;
+  height: 50px;
+}
+div {
+  width: 50%;
+}
