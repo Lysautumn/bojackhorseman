@@ -1,29 +1,54 @@
+
 body {
-  background-color: #00ffff;
-}
-main {
   background-image: url(/assets/bojackbackground.jpg);
   background-size: 100% auto;
 }
 a {
   text-decoration: none;
+  color: black;
+  font-family: 'Walter Turncoat', cursive;
   font-size: 24px;
   font-weight: bold;
   margin: 10px;
   padding: 30px;
 }
+a:hover {
+  color: white;
+  font-size: 26px;
+}
 img {
   border: 10px solid black;
+  height: 275px;
   display: block;
   margin: 0 auto;
 }
 h1, p {
   text-align: center;
 }
+h1 {
+  font-family: 'Walter Turncoat', cursive;
+}
+p {
+  font-family: 'Schoolbell', cursive;
+  font-size: 20px;
+}
 header {
   background-color: #00ffff;
   height: 50px;
 }
 div {
-  width: 50%;
+  width: 70%;
+}
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+}
+#footText {
+  text-align: right;
+  color: white;
+  padding-right: 70px;
 }
